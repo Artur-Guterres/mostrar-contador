@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>contador</title>
+ <style> 
+ body {
+
+margin-top: 150px;
+text-align: center;
+ }
+h1 {
+
+font-size: 50px;
+
+}
+
+ </style>
+</head>
+<body>
+<section>
+<h1>10</h1>
+<button onclick="adicionar()">+</button>
+</section>    
+
+<script>
+let numero = 10
+function adicionar() {
+  numero ++;
+    document.querySelector ('h1') . textContent = numero
+
+}
+
+</script>
+</body>
+</html>
